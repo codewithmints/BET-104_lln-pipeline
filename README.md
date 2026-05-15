@@ -3,6 +3,9 @@
 Demonstrates the Law of Large Numbers by sampling integers from `1` to `n`
 and showing how the sample mean converges to the true mean as `k` increases.
 
+## Result Plot (n = 2000, k up to 5000)
+![Testing Draws Plot](results/plot.png)
+
 ## Folder Structure
 
 ```
