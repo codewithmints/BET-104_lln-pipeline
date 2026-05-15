@@ -12,7 +12,7 @@ lln_pipeline/
 ├── scripts/
 │   ├── generate_data.py # Simulates sampling, saves results/data.csv
 │   └── plot.py          # Reads CSV, generates results/plot.png
-├── results/             # Auto-created by pipeline
+├── results/             
 │   ├── data.csv
 │   └── plot.png
 └── README.md
@@ -27,7 +27,7 @@ pip install snakemake numpy pandas matplotlib seaborn
 ## Run
 
 ```bash
-snakemake --cores 1
+snakemake --cores 4
 ```
 
 ## Configuration (`config.yaml`)
