@@ -12,7 +12,7 @@ and showing how the sample mean converges to the true mean as `k` increases.
 BET-104_lln-pipeline/
 ├── config.yaml          # Pipeline parameters (n, k_values, repeats)
 ├── Snakefile            # Snakemake rules (all, generate_data, plot)
-├── code scripts/
+├── scripts/
 │   ├── generate_data.py # Simulates sampling, saves results/data.csv
 │   └── plot.py          # Reads CSV, generates results/plot.png
 ├── results/             
